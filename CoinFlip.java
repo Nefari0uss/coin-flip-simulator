@@ -14,7 +14,7 @@ public class CoinFlip {
 		simulateFlip(n);
 	} // end main
 
-	private static void getInput() {
+	private static int getInput() {
 		Scanner in = new Scanner(System.in);
 		System.out.println("How many times to clip the coin?");
 		int n = in.nextInt();
